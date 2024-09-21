@@ -1,0 +1,151 @@
+/*Intro Page*/
+
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-family: cursive;
+    color: rgb(94, 105, 202);
+}
+
+p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 1rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.input-1{
+    width: 100%;
+    margin-bottom: 2px;
+    padding: 0.5rem;
+    font-size: 17px;
+    border: 2px solid rgb(94, 105, 202);
+    background-color: rgb(94, 105, 202);
+    border-radius: 20px;
+}
+
+.button-1{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 17px;
+    font-family: cursive;
+    color: rgb(94, 105, 202);
+    border: 2px solid rgb(245, 144, 122);
+    border-radius: 20px;
+    font-weight: 600;
+
+}
+
+.wave-1{
+    position: absolute;
+    left: 0;
+}
+
+.testimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-icon{
+    color:rgb(245, 144, 122);
+    font-size: 15px;
+    margin:0px 10px ;
+}
+
+.details-btn{
+    background-color: #33364900;
+    border: 2px solid rgb(245, 144, 122);
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px ;
+    font-weight: 500;
+    padding: 5px 30px ;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.details-btn:hover{
+    background-color: rgb(245, 144, 122) !important;
+    transition: 0.5s !important;
+}
+
+.title{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 7vh;
+    font-weight: 700;
+    text-align: center;
+}
+
+.swiper-button-prev{
+    color: rgb(245, 144, 122) !important;
+}
+
+.continar-swiper{
+    width: 90%;
+}
+
+.swiper-button-next{
+    color: rgb(245, 144, 122) !important;
+}
+
+@media screen and (max-width:900px) {
+    
+    .continar-ditailes{
+        width: 100%;
+    }
+    
+    .continar-swiper{
+        width: 100%;
+    }
+    .about-contanir{
+        width: 100%;
+    }
+
+    .con-about-call{
+        text-align: center !important;
+        margin-bottom: 2rem;
+    }
+
+}
+
+.loder-continer{
+     width: 100%;
+     height: 100vh;
+     background-color: #fff;
+     z-index: 5;
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color:#fff ;
+    border-radius: 5px;
+
+}
+
+::-webkit-scrollbar-thumb{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: rgb(94, 105, 202);
+    border-radius: 5px;
+}

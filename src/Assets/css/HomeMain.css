@@ -1,0 +1,116 @@
+.outer-div{
+    width: 100%;
+    /* height: 150vh; */
+    text-align: center;
+    color: rgb(245, 144, 122);
+}
+
+.card1-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2rem 2rem; */
+    overflow: hidden;
+    margin-top: 1.5rem;
+    height: 7rem;
+    border-radius: 10px;
+    transition: 1s;
+    background-color: #fff;
+}
+
+.card1-container:hover{
+    transform: translateY(-0.2rem);
+    transition: 1s;
+}
+
+.icon-card1-con{
+    width: 25%;
+    margin-bottom: 1rem;
+}
+
+/* .con-about-card1{
+    width: 90%;
+} */
+
+.con-about-card1 h3{
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s;
+    font-family: Michroma ;    
+    cursor: pointer;
+}
+
+.con-about-card1 h3:hover{
+    color: rgb(245, 144, 122);
+    transition: 0.5s;
+}
+
+.con-about-card1 p{
+    font-size: 15px;
+    font-family: Michroma ;
+    color:rgb(94, 105, 202) ;
+}
+
+.icon-card1{
+    font-size: 4rem !important;
+    position: relative;
+    margin-left: -2rem;
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: rgba(218, 7, 218, 0.378);
+    /* style={{backgroundColor:"#ff84ad4f",color:"#ff689b"}} */
+}
+
+.first-chart-contained{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    /* height: 7rem; */
+    border-radius: 10px;
+    transition: 1s;
+    background-color: #fff;
+}
+
+.inner-first-chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-subscriptions-icon{
+    background-color: rgb(245, 144, 122);
+    color: #fbdcc6;
+    padding: 0.5rem ;
+    font-size: 2.8rem !important;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.h3-first-chart{
+    font-size: 11px;
+    font-family: Michroma ;
+    color:rgb(94, 105, 202) ;
+}
+
+.p-first-chart{
+    font-size: 11px;
+    font-family: Michroma ;
+    color:rgb(94, 105, 202) ;
+}
+
+.followers-account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2ecfd;
+    padding: 0.2rem 1rem;
+    margin-bottom: 0.5rem;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}

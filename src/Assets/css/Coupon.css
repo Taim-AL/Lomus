@@ -1,0 +1,6 @@
+.accordion-coupon{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(94, 105, 202) !important;
+    font-family: Josefin Sans;
+}

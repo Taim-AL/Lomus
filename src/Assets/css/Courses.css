@@ -1,0 +1,169 @@
+.my-courses-title{
+    font-family: Michroma ; 
+    font-size: 30px;
+    text-align: left;
+    color: rgb(94, 105, 202);
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.container-search{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.button-search{
+    color: rgb(94, 105, 202);
+    font-family: cursive;
+    border: none;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    /* color: #333649; */
+    /* background-color: #fff; */
+}
+
+.input-search{
+    background-color: #edeef3;
+    border: 2px solid rgb(245, 144, 122);
+}
+
+/* .container-img-cours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.img-cours{
+    width: 100% !important;
+    /* margin-top: 1rem; */
+    
+    height: 10rem;
+}
+
+.outer-container-corses{
+    overflow: hidden;
+    padding: 0px -4rem;
+    border-radius: 20px;
+    /* background: linear-gradient(to right ,#928DAB,#333649,#333649 ); */
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.outer-container-corses:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: 0.5s;
+}
+
+/* #928DAB   #8889cc*/
+.title-cours{
+    font-family: Ubuntu  ;
+    font-size: 18px;
+    margin-top: 1rem;
+    color: rgb(94, 105, 202);
+    text-align: left;
+}
+
+.discreption-cours{
+    color: #817ba1;
+    text-align: left;
+}
+
+.show-more-course{
+    color: rgb(245, 144, 122);
+    text-decoration: none;
+    font-size: 15px !important;
+    padding-bottom: 1rem;
+}
+
+.outer-container-next-cours{
+    display: flex;
+    justify-content: space-between;
+}
+
+.next-icon-cours{
+    color: rgb(245, 144, 122);
+    font-size: 35px !important;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width:900px) {
+    /* .img-cours{
+        margin-top: 2rem;
+        width: 20rem;
+    } */
+}
+
+.bottun-add-course{
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid rgb(245, 144, 122);
+    margin-top: 2rem;
+    transition: 0.5s;
+}
+
+.add-course-icon{
+    margin-top: 1rem;
+    font-size: 50px !important;
+    color: rgb(94, 105, 202);
+    text-align: center;
+    margin-bottom: 1rem;    
+}
+
+.bottun-add-course:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    /* color: #ef6603 !important; */
+    transition: 0.5s;
+}
+
+.bottun-add-course:hover .add-course-icon{
+    color: rgb(245, 144, 122);
+    transition: 0.5s;
+}
+
+.my-student-title{
+    font-family: Michroma ; 
+    font-size: 20px;
+    text-align: left;
+    color: rgb(94, 105, 202);
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 20px;
+}
+
+.studet-account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inner-student-account{
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid #fff;
+}
+
+.inner-student-information-courses{
+    margin-left: 0.5rem;
+}
+
+.student-name-courses{
+    color: rgb(94, 105, 202);
+    font-size: 15px;
+    font-family: cursive ; 
+    margin-top: 5px;
+}
+
+.description-student-course{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #817ba1;
+}
+
+.student-account-icon{
+    color: #14ba00;
+    margin-bottom: 0.5rem;
+}

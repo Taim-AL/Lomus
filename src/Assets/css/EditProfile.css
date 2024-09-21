@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.outer-edit-file-component{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.inner-edit-profile-component{
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+  .app {
+    width: 35%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #e9f3fe; */
+  }
+  .parent {
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 7px 20px 20px rgb(210, 227, 244);
+  }
+  .file-upload {
+    text-align: center;
+    border: 2px dashed rgb(210, 227, 244);
+    border-radius: 50%;
+    padding: 0.5rem;
+    position: relative;
+    cursor: pointer;
+  }
+  .file-upload p {
+    font-size: 14px;
+    margin-top: 5px;
+    color:rgb(245, 144, 122);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .file-upload input {
+    display: block;
+    /* border-radius: 50%; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;}
+
+.image-upload-file{
+    width: 100%;
+    height: 130px;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+
+.circular-progress-edit{
+  height: 3px;
+  background-color: rgb(245, 144, 122);
+  border: 1px solid rgb(245, 144, 122);
+  border-bottom-left-radius: 30px !important;
+  border-bottom-right-radius: 30px !important;
+}
+.titel-edit-profile{
+    font-family: Michroma ;    
+    color: rgb(245, 144, 122);
+    font-weight: 500;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    text-align: center;
+}
+
+.delete-image-button{
+  margin-top: 0.7rem;
+  background: none;
+  border: 2px solid rgb(94, 105, 202);
+  padding: 0rem 0.5rem;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  font-family: cursive;
+  color: rgb(245, 144, 122);
+}
+
+.otherInfo-teacher-container{
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding-left: 3rem;
+}
+
+.change-otherInfo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.input-change-info{
+  width: 20rem;
+  margin-bottom: 0.5rem !important;
+}
+
+.progress-edit{
+  /* position: absolute;
+  top: -2rem;
+  right: 0;
+  left: 0; */
+  width: 100%;
+  /* z-index: 4; */
+}
+
+.outer-change-password-component{
+  background-color: #fff;
+  margin-top: 1rem;
+  border-radius: 30px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.change-dassword-btn{
+  /* margin-top: 0.7rem; */
+  background: none;
+  border: 2px solid rgb(94, 105, 202);
+  padding: 0rem 0.5rem;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  font-family: cursive;
+  color: rgb(245, 144, 122);
+}
+
+.change-password-title{
+  color: rgb(245, 144, 122);
+  font-family:Poppins;
+}

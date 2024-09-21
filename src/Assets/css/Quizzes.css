@@ -1,0 +1,22 @@
+.card-blank-quizz{
+    padding: 0rem 1rem ;
+    margin-bottom: 1rem;
+}
+
+.inner-blank-card{
+    padding: 0.5rem 1rem ;
+    /* z-index: 5 !important; */
+    background-color: #fff;
+    border: 2px solid #edeef3;
+    border-radius: 10px;
+}
+
+.h3-blank{
+    font-family: Michroma ;
+    font-size: 15px; 
+    color: #333649;
+}
+
+.p-blank-quizz{
+    color: rgb(94, 105, 202);
+}

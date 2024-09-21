@@ -1,0 +1,19 @@
+body{
+    background-color: #edeef3;
+}
+.home-body{
+    padding-left: 4vh;
+    width: 81%;
+    /* height: 150vh; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #edeef3;
+}
+
+@media (width <= 900px){
+    .home-body{
+        width: 100%;
+        padding-left: 0px !important;
+    }
+}

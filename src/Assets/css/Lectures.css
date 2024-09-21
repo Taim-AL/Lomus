@@ -1,0 +1,72 @@
+  .lecture-image{
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .outer-container-lecture-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inner-container-lecture-car{
+    width: 70%;
+    border: 2px solid rgb(245, 144, 122);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.h5-port{
+    transition: 0.5s;
+    font-family: Michroma ;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+.card4{
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.card4:hover .h5-port{
+    color: rgb(245, 144, 122);
+}
+
+.img-portfolio{
+  width: 100%;
+  height: 13rem;
+  transition: 0.5s;
+}
+.img-portfolio:hover{
+  transform: scale(1.1);
+}
+
+.outer-container-attachments{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.file-icon{
+  color: rgb(245, 144, 122);
+}
+
+.file-name{
+  font-family: Michroma ;
+  color: rgb(94, 105, 202);
+  font-size: 13px;
+  margin-left: 0.2rem;
+}
+
+
+.file-upload-icon{
+  transition: 0.5s;
+}
+
+.file-upload-icon:hover{
+  color: rgb(245, 144, 122);
+  transition: 0.5s !important;
+}
